@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         R.layout.layout_pager_view5)
     var adapter = Recyclerview(layout)
     var dotsRecycler = DotsRecycler(layout.size)
-    private val TAG = "MainActivity"
+    private val TAG = "MainActivity";
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
